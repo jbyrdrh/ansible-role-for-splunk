@@ -2,7 +2,7 @@
 
 This top section includes my instructions for the sake of demoing this role.
 
-DISCLAIMER: This role is *not* part of Red Hat's [Ansible Automation Platform Certified or validated Collections](https://access.redhat.com/support/articles/ansible-automation-platform-certified-content#validated-content-in-ansible-automation-hub-2).
+DISCLAIMER: This role is *not* part of Red Hat's [Ansible Automation Platform Certified or Validated Collections](https://access.redhat.com/support/articles/ansible-automation-platform-certified-content#validated-content-in-ansible-automation-hub-2).
 
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)&nbsp;
 [![GitHub release](https://img.shields.io/github/v/tag/splunk/ansible-role-for-splunk?sort=semver&label=Version)](https://github.com/splunk/ansible-role-for-splunk/releases)
