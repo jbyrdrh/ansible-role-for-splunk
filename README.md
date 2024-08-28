@@ -1,5 +1,7 @@
 ## Ansible Role for Splunk: A copy of the Official Splunk Ansible role
 
+This top section includes my instructions for the sake of demoing this role.
+
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)&nbsp;
 [![GitHub release](https://img.shields.io/github/v/tag/splunk/ansible-role-for-splunk?sort=semver&label=Version)](https://github.com/splunk/ansible-role-for-splunk/releases)
 
@@ -70,7 +72,7 @@ As proper usage of this role requires a thorough understanding of variables, fam
 
 Although a number of variables ship with this role, many of them automatically configure themselves when the play is executed. For example, during the upgrade check, the desired version of Splunk that you want to be at is based solely upon the value of `splunk_package_url_full` or `splunk_package_url_uf`. We extract the version and build numbers from the URL automagically, and then compare those values to the output of the "splunk version" command during the `check_splunk.yml` task to determine if an upgrade is required or not.
 
-There are a few variables that need to configure out of the box to use this role with your environment:
+There are a few variables that you need to configure out of the box to use this role with your environment:
 
 ```
 splunk_uri_lm - The URI for your license master (e.g. https://my_license_master:8089)
